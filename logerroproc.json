@@ -1,0 +1,38 @@
+{
+	"identifications" : [
+		{
+			"id" : 4690699,
+			"datainc": null
+		},
+		{
+			"id" : 5044222,
+			"datainc": null
+		}
+		
+	],
+	"errors": [
+		{ 
+			"id": 1,
+			"identificationId": 4690699,
+			"datainc": null,
+			"idproc": 1409,
+			"mensagem": "Inconsistência na entrada XML. Inválido: No such field br.com.dsf.gtm.bridge.ws.vo.EntradaGravaCadastroEconomico.ERRO"
+		}
+	],
+	"procedures" : [
+		{
+			"id": 1,
+			"errorId" : 1,
+			"identificationId": 4690699,
+			"datainc": null,
+			"comentario" : "O xml não gerou a tag EntradaSocioAdministrador"
+		},
+		{
+			"id": 2,
+			"errorId" : 4690699,
+			"identificationId": 4690699,
+			"datainc": null,
+			"comentario" : "O endereço do sócio está com 'S-N no campo NUMERO, e é somente permitido null, 'S/N' ou valor inteiro."
+		}
+	]
+}
